@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <title>Story</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <p class="story" id="story">
+                story
+            </p>
+            <div class="marcy">
+                <p>
+                    Marcy...
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="story__travel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-md-6 col-sm-12">
+                        <div class="travel d-flex flex-column">
+                            <p class="travel__text">
+                                travel
+                            </p>
+
+                            <h1 class="travel__text_one">
+                                Nullam id dolor id nibh ultricies vehicula ut id elit.
+                            </h1>
+
+                            <p class="travel__text_two">
+                                Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum. Donec
+                                id
+                                elit
+                                non mi porta gravida at eget metus.
+                            </p>
+
+                            <p class="travel__text_three">
+                                Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac
+                                consectetur
+                                ac,
+                                vestibulum at eros.
+                            </p>
+                            <a href="#" class="button_full">full story <i class="far fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6 col-sm-12">
+                        <img src="images/2.png" alt="" class="travel_description">
+                        <img src="images/1.png" alt="" class="travel__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="travel__boy">
+            <div class="container">
+                <p class="travel__boy__text" id="travel">
+                    travel
+                </p>
+                <h1 class="travel__boy__text_1">
+                    Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum.
+                </h1>
+                <img src="images/3.png" alt="Travel" class="travel_boy_img">
+                <p class="travel__boy__text_2">
+                    Donec aredsed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Morbi leo
+                    risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor
+                    fringilla.
+                </p>
+                <p class="travel__boy__text_3">
+                    Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean eu leo quam.
+                    Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                </p>
+                <a href="#" class="button_full_1">full story <i class="far fa-long-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <section class="video">
+            <div class="videoBx">
+                <video src="Горы и облака- Ай-Петри в марте 2018 года.mp4" muted autoplay loop type="mp4"
+                    class="w-100"></video>
+            </div>
+        </section>
+
+        <section class="travel__box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-md-6 col-sm-12">
+                        <img src="images/5.png" alt="" class="travel__box__img w-100">
+                    </div>
+                    <div class="col-xl-6 col-md-6 col-sm-12">
+                        <div class="box d-flex flex-column">
+                            <p id="quote">quote</p>
+                            <p>Nullam id dolor id nibh ultricies vehicula elit. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-5 col-md-6 col-sm-12">
+                        <div class="box_description">
+                            <p class="box__text">
+                                “Donec id elit non mi porta gravida at eget metus. Vestibulum id ligula porta felis
+                                euismod semper. Curabitur blandit tempus porttitor”
+                            </p>
+                            <p class="ven">ven diesel<span>1962-2006</span></p>
+                            <a href="#" class="button__box">full story <i class="far fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="toggleIcon" onclick="menuToggle()"></div>
+        <div id="menu-overlay">
+            <ul>
+                <li><a href="#story">story</a></li>
+                <li><a href="#travel">travel</a></li>
+                <li><a href="#quote">quote</a></li>
+                <li><a href="#subscribe">subscribe</a></li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <div class="subscribe" id="subscribe">
+            <div class="subscribe__box">
+                <p class="subscribe__text">
+                    Like what you're reading? Get weekly updates that will help you grow as a designer.
+                </p>
+                <div class="subscribe__intrance">
+                    <form action="check in" class="check_in">
+                        <div class="form__text">
+                            <div class="formInput">
+                                <input type="text" name="user" placeholder="name" class="form__name" required>
+                            </div>
+                            <div class="formInput">
+                                <input type="email" name="email" placeholder="email" class="form__email" required>
+                            </div>
+                            <div class="footer__buton">
+                               <button class="form__buton">subscribe<i class="far fa-long-arrow-right"></i></button>
+                            </div>
+                        </div>
+                     
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/popper.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

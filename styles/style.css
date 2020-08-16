@@ -1,0 +1,796 @@
+@import 'fonts.css';
+
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+}
+
+
+.story {
+    color: #e9ebec;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 50px;
+    font-family: 'Poppins-Medium';
+    font-size: 189px;
+    padding-top: 33px;
+}
+
+.marcy {
+    height: 129px;
+    width: 396px;
+    background: #80b7b3;
+    margin: 0 auto;
+    box-shadow: 0 33px 33px 1px rgba(0, 0, 0, .2);
+    position: absolute;
+    bottom: 11.9vw;
+    z-index: 1;
+    left: 34vw;
+
+}
+
+.marcy p {
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 68px;
+    color: #fff;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.header_img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.header_menu {
+    position: absolute;
+    top: 107px;
+}
+
+
+/******************************************************** MAIN start ***********************************************/
+
+
+
+
+
+
+/************************************************** STORY TRAVEL start ********************************************/
+
+.story__travel {
+    padding-top: 70px;
+}
+
+
+
+.travel__text {
+    font-family: 'Poppins-Medium';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #7d8b90;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+
+.travel__text_one {
+    max-width: 464px;
+    width: 100%;
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 36px;
+    color: #273d46;
+    margin-bottom: 60px;
+}
+
+.travel__text_two {
+    font-family: 'PlayfairDisplay-Regular';
+    color: #687378;
+    font-size: 24px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.travel__text_three {
+    font-family: 'PlayfairDisplay-Regular';
+    color: #758389;
+    font-size: 24px;
+    max-width: 400px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button_full {
+    color: #fff;
+    font-size: 14px;
+    background: #80b7b3;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 21px;
+    padding: 13px;
+    width: 199px;
+    height: 44px;
+}
+
+.button_full:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.far {
+    margin-left: 18px;
+    font-size: 14px;
+}
+
+
+.travel__img {
+    position: absolute;
+    z-index: 1;
+    bottom: 265px;
+    right: 280px;
+}
+
+
+/*****************************************   STORY TRAVEL end *******************************************************/
+
+
+
+
+
+
+
+
+/************************************************** TRAVEL-BOY start ********************************************/
+.travel__boy {
+    padding-top: 213px;
+    position: relative;
+}
+
+.travel__boy__text {
+    font-family: 'Poppins-Medium';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #7d8b90;
+    letter-spacing: 3px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.travel__boy__text_1 {
+    font-family: 'PlayfairDisplay-Regular';
+    color: #273d46;
+    font-size: 36px;
+    text-align: center;
+    max-width: 725px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.travel_boy_img {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.travel__boy__text_2 {
+    color: #687378;
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 24px;
+    max-width: 729px;
+    width: 100%;
+    text-align: justify;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.travel__boy__text_3 {
+    color: #687378;
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 24px;
+    max-width: 729px;
+    width: 100%;
+    text-align: justify;
+    margin: 0 auto;
+    margin-top: 63px;
+    margin-bottom: 97px;
+}
+
+.button_full_1 {
+    color: #fff;
+    font-size: 14px;
+    background: #80b7b3;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 21px;
+    padding: 11px 41px;
+    position: absolute;
+    left: 430px;
+}
+
+.button_full_1:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.video {
+    padding-top: 255px;
+}
+
+.videoBx video {
+    margin: 0 auto;
+}
+
+/************************************************** TRAVEL-BOY end ********************************************/
+
+
+
+/************************************************** Box start ********************************************/
+.travel__box {
+    padding-top: 100px;
+}
+
+.box {
+    margin-top: 80px;
+}
+
+.box :nth-child(1) {
+    font-family: 'Poppins-Medium';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #969da0;
+    letter-spacing: 3px;
+}
+
+.box :nth-child(2) {
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 36px;
+    color: #273d46;
+    position: relative;
+    max-width: 372px;
+    width: 100%;
+}
+
+.box_description {
+    width: 751px;
+    height: 313px;
+    background: #fff;
+    position: absolute;
+    left: 275px;
+    bottom: -180px;
+    z-index: 1;
+}
+
+.box__text {
+    font-family: 'PlayfairDisplay-Italic';
+    font-size: 26px;
+    color: #273d46;
+    max-width: 540px;
+    width: 100%;
+    margin-left: 56px;
+    margin-top: 65px;
+}
+
+.ven {
+    font-family: 'Poppins-Medium';
+    font-size: 14px;
+    color: #687378;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: 56px;
+
+}
+
+.ven span {
+    color: #7a7b7c;
+    margin-left: 23px;
+    font-family: 'Poppins-Medium';
+    font-size: 14px;
+    position: relative;
+}
+
+.button__box {
+    color: #fff;
+    font-size: 14px;
+    background: #80b7b3;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 21px;
+    padding: 11px 41px;
+    position: absolute;
+    bottom: 0;
+    left: 16vw;
+}
+
+.button__box:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+/************************************************** Box video end ********************************************/
+
+
+
+/************************************************** FOOTER start ********************************************/
+footer {
+    padding-top: 290px;
+}
+
+.subscribe {
+    background-image: url(../images/footer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 479px;
+    width: 100%;
+}
+
+.subscribe__box {
+    height: 327px;
+    width: 670px;
+    background: rgba(60, 79, 87, 0.824);
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.subscribe__text {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    max-width: 355px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.subscribe__intrance {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__name {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 11px 41px;
+    border-radius: 22px;
+    background-color: #273d46;
+    border: none;
+    outline: none;
+    color: #bdc0c1;
+    margin-top: 50px;
+    font-size: 14px;
+    margin-left: 80px;
+}
+
+
+input[type="text"]::placeholder {
+    color: #bdc0c1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.form__text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__email {
+    margin-top: 50px;
+    padding: 11px 41px;
+    border-radius: 22px;
+    background-color: #273d46;
+    color: #bdc0c1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    margin-left: 80px;
+}
+
+
+input[type="email"]::placeholder {
+    color: #bdc0c1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.form__buton {
+    margin-top: 130px;
+    color: #fff;
+    font-size: 14px;
+    background: #80b7b3;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 21px;
+    padding: 11px 41px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    margin-left: -373px;
+    letter-spacing: 3px;
+}
+
+.form__buton:focus {
+    border: none;
+    outline: none;
+}
+
+/************************************************** FOOTER end ********************************************/
+
+.travel_description {
+    width: 100%;
+}
+
+#menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+#menu-overlay.active {
+    transform: scale(1);
+}
+
+#menu-overlay ul {
+    position: relative;
+    list-style: none;
+    text-align: center;
+    display: block;
+}
+
+#menu-overlay ul li a {
+    position: relative;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 0 10px;
+    color: #273d46;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+#toggleIcon {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    background: url(../images/menuopen.png);
+    z-index: 1;
+    cursor: pointer;
+    display: none;
+
+}
+
+#toggleIcon.active {
+    background: url(../images/closemenu.png);
+
+}
+
+
+
+
+@media(max-width:1200px) {
+    .travel__img {
+        display: none;
+    }
+
+    .marcy {
+        bottom: 15.9vw;
+    }
+}
+
+@media(max-width:991px) {
+    .box_description {
+        position: static;
+        margin: 0 auto;
+       
+        width: 640px;
+    }
+
+    .button__box {
+        position: static;
+        margin-left: 175px;
+    }
+
+    .travel__box__img {
+        padding-top: 40px;
+    }
+
+    .box :nth-child(2) {
+        font-size: 30px;
+        position: static;
+    }
+
+    .travel__boy__text_1 {
+        max-width: 570px;
+    }
+
+    .button_full_1 {
+        left: 38vw;
+    }
+
+    .story {
+        letter-spacing: 16px;
+        font-size: 120px;
+    }
+
+    .marcy {
+        display: none;
+        position: static;
+    }
+
+    .ven {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media(max-width:767px) {
+    .story {
+        font-size: 86px;
+    }
+
+    .travel__text {
+        text-align: center;
+    }
+
+    .travel__text_one {
+        text-align: center;
+    }
+
+    .travel__text_two {
+        margin: 0 auto;
+    }
+
+    .travel__text_three {
+        margin: 35px auto;
+    }
+
+    .button_full {
+        margin: 0 auto 30px;
+    }
+
+    .travel__boy__text_1 {
+        font-size: 33px;
+    }
+
+    .box :nth-child(1) {
+        text-align: center;
+    }
+
+    .box :nth-child(2) {
+        margin: 0 auto;
+        max-width: 294px;
+    }
+
+    .button__box {
+        margin-left: 175px;
+    }
+
+    .box__text {
+        max-width: 509px;
+    }
+
+    .box_description {
+        height: 270px;
+        width: 556px;
+    }
+
+    .subscribe__box {
+        height: 308px;
+        width: 619px;
+    }
+
+    .form__name {
+        padding: 11px 27px;
+    }
+
+    .form__email {
+        padding: 11px 27px;
+    }
+
+    .form__buton {
+        margin-left: -340px;
+    }
+
+    #toggleIcon {
+        display: flex;
+    }
+}
+
+@media(max-width:630px) {
+
+    .form__text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form__name {
+        padding: 11px 35px;
+        margin-left: 125px;
+    }
+
+    .form__email {
+        padding: 11px 35px;
+        margin-left: 125px;
+    }
+
+    .subscribe__box {
+        width: 467px;
+        height: 423px;
+    }
+
+    .form__buton {
+        margin-left: 125px;
+        margin-top: 40px;
+    }
+
+
+
+    .box_description {
+        width: 445px;
+    }
+
+    .box__text {
+        max-width: 380px;
+        font-size: 24px;
+    }
+
+    .button_full_1 {
+        left: 34vw;
+    }
+
+    .button__box {
+        margin-left: 120px;
+    }
+
+}
+
+@media(max-width:470px) {
+    .subscribe__text {
+        width: 69%;
+        text-align: justify;
+    }
+
+    .subscribe__box {
+        width: 300px;
+    }
+
+    .form__name {
+        padding: 11px 35px;
+        margin-left: 45px;
+
+    }
+
+    .form__email {
+        padding: 11px 35px;
+        margin-left: 45px;
+    }
+
+    .form__buton {
+        margin-left: 45px;
+    }
+
+    .story {
+        font-size: 55px;
+    }
+
+    .travel__text_one {
+        font-size: 27px;
+    }
+
+    .travel__boy__text_1 {
+        font-size: 27px;
+    }
+
+    .button_full_1 {
+        left: 29vw;
+    }
+
+    .box_description {
+        width: 314px;
+    }
+
+    .box__text {
+        margin: 0 auto;
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+
+    .box :nth-child(2) {
+        margin-bottom: 28px;
+    }
+
+    .button__box {
+        margin-left: 60px;
+    }
+
+    .story {
+        letter-spacing: 5px;
+    }
+}
+
+@media(max-width:375px) {
+    .travel__boy__text_1 {
+        max-width: 280px;
+    }
+
+    .button_full_1 {
+        left: 24vw;
+    }
+
+    .box__text {
+        font-size: 20px;
+        text-align: center;
+        width: 91%;
+    }
+
+    .box_description {
+        width: 298px;
+    }
+
+    .story {
+        font-size: 40px;
+    }
+
+}
+
+@media(max-width:355px) {
+    .travel__text_two {
+        font-size: 20px;
+    }
+
+    .travel__text_three {
+        font-size: 20px
+    }
+
+    .travel__boy__text_2 {
+        font-size: 20px;
+    }
+
+    .travel__boy__text_3 {
+        font-size: 20px;
+    }
+
+    .ven {
+        letter-spacing: 2px;
+    }
+
+    .button_full_1 {
+        left: 21vw;
+    }
+    .box :nth-child(2) {
+     
+        text-align: center;
+      
+    }
+}
