@@ -792,8 +792,6 @@ input[type="email"]::placeholder {
         left: 21vw;
     }
     .box :nth-child(2) {
-     
         text-align: center;
-      
     }
 }
