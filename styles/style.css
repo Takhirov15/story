@@ -53,7 +53,6 @@ header {
 
 .header_menu {
     position: absolute;
-    top: 107px;
 }
 
 
@@ -192,7 +191,6 @@ header {
     font-size: 24px;
     max-width: 729px;
     width: 100%;
-    text-align: justify;
     margin: 0 auto;
     margin-top: 10px;
 }
@@ -203,7 +201,6 @@ header {
     font-size: 24px;
     max-width: 729px;
     width: 100%;
-    text-align: justify;
     margin: 0 auto;
     margin-top: 63px;
     margin-bottom: 97px;
@@ -624,6 +621,10 @@ input[type="email"]::placeholder {
 
     #toggleIcon {
         display: flex;
+    }
+    
+      .travel_description{
+        margin: 0 auto;
     }
 }
 
