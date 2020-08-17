@@ -625,6 +625,7 @@ input[type="email"]::placeholder {
     
       .travel_description{
         margin: 0 auto;
+        width: 90%;
     }
 }
 
@@ -785,6 +786,7 @@ input[type="email"]::placeholder {
     .ven {
         letter-spacing: 2px;
     }
+  
 
     .button_full_1 {
         left: 21vw;
