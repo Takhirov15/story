@@ -689,14 +689,14 @@ input[type="email"]::placeholder {
     }
 
     .form__name {
-        padding: 11px 35px;
-        margin-left: 35px;
+        padding: 11px 28px;
+        margin-left: 28px;
 
     }
 
     .form__email {
         padding: 11px 35px;
-        margin-left: 35px;
+        margin-left: 28px;
     }
 
     .form__buton {
